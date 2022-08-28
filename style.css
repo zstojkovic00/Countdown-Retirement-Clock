@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      background: url("nebojsa.png") no-repeat; 
+    background-position: center;
+    background-size: width height;
+
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    padding: 0 10%;
+    background:rgba(0,0,0,0.7);
+    box-shadow: 2px 3px 8px white;
+    color: white;
+}
+
+h1{
+    text-shadow: 2px 2px 2px black;
+    width: 100%;
+    font-size: 38px;
+    font-weight: 600;
+    padding:20px;
+}
+
+
+.time-box{
+    padding: 20px 40px;
+
+}
+
+h2{
+    font-size: 40px;
+
+}
+
+
